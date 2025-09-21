@@ -197,7 +197,6 @@ transform: scale(1.2);
   object-position: center;
 }
 
-/* Section Title */
 .terlaris {
   position: relative;
   color: white;
@@ -209,7 +208,7 @@ transform: scale(1.2);
   justify-content: center;
 }
 .title-row h1 {
-  font-size: clamp(30px, 3vw, 50px);
+  font-size: clamp(25px, 3vw, 45px);
   margin: 0;
   line-height: 1.5;
 }
@@ -223,7 +222,6 @@ transform: scale(1.2);
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 10px;
 }
 #topupskrg {
   color: white;
@@ -419,4 +417,4 @@ transform: scale(1.2);
 
 .dropdown a:hover {
   background: #000080;
-    }
+}
