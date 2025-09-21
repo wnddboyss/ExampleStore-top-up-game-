@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExampleStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo">
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Cari...">
+    </div>
+    <div class="box1">
+      <img src="flags.jpg" alt="Flags" class="flags">
+    </div>
+    <div class="box2">
+      <div class="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  
+ <!-- isi dropdown -->
+  <div class="dropdown" id="dropdownMenu">
+    <a href="#">📋 Cek Transaksi</a>
+    <a href="#">📊 Leaderboard</a>
+    <a href="#">🧮 Calculator</a>
+    <a href="#">🔑 Login</a>
+  </div>
+  
+<section class="carousel-section">
+  <div class="carousel-container">
+  <div class="carousel-track">
+    <div class="slide"><img src="slml.jpg"></div>
+    <div class="slide"><img src="slff.jpg"></div>
+    <div class="slide"><img src="slrblx.jpg"></div>
+    <div class="slide"><img src="slpbg.jpg"></div>
+    <div class="slide"><img src="slvlo.jpg"></div>
+  </div>
+  </div>
+</section>
+  
+  <div id="garis"></div>
+  
+<div class="terlaris">
+  <div class="judul">
+    <div class="title-row">
+      <h1 id="pilihant">Pilihan Populer Hari Ini!</h1>
+      <img src="fire.gif" alt="firegif">
+    </div>
+    <p id="topupskrg">Pilihan top up game dengan pembelian terbanyak sekarang</p>
+  </div>
+</div>
+  
+  <div class="gamebox">
+    <div id="gbox1"><img src="ml1.jpg" alt="MobileLegends" id="ml1"></div>
+    <div id="gbox2"><img src="ff1.jpg" alt="FreeFire" id="ff1"></div>
+    <div id="gbox3"><img src="hok1.jpg" alt="HonorOfKing" id="hok1"></div>
+    <div id="gbox4"><img src="gnshn1.jpg" alt="GenshinImpact" id="gnshn1"></div>
+    <div id="gbox5"><img src="roblox1.jpg" alt="Roblox" id="roblox1"></div>
+    <div id="gbox6"><img src="pubgm1.jpg" alt="PubgMobile" id="pubgm1"></div>
+    <div id="gbox7"><img src="valo1.jpg" alt="Valorant" id="valo1"></div>
+    <div id="gbox8"><img src="efm1.jpg" alt="EfootballMobile" id="efm1"></div>
+  </div>
+  
+<div class="categories">
+<button data-target="topup-grid" class="active">Top Up</button>
+<button data-target="login-grid">Top Up Via Login</button>
+<button data-target="joki-grid">Joki</button>
+<button data-target="joki-gendong-grid">Joki Gendong</button>
+<button data-target="voucher-grid">Voucher Games</button>
+<button data-target="ewallet-grid">Top up E-Wallet</button>
+</div>
+    
+    <div id="topup-grid" class="topup-grid">
+  <div class="grid-item">Game 1</div>
+  <div class="grid-item">Game 2</div>
+  <div class="grid-item">Game 3</div>
+  <div class="grid-item">Game 4</div>
+  <div class="grid-item">Game 5</div>
+  <div class="grid-item">Game 6</div>
+  <div class="grid-item">Game 7</div>
+  <div class="grid-item">Game 8</div>
+  <div class="grid-item">Game 9</div>
+  <div class="grid-item hidden">Game 10</div>
+  <div class="grid-item hidden">Game 11</div>
+  <div class="grid-item hidden">Game 12</div>
+  <div class="grid-item hidden">Game 13</div>
+  <div class="grid-item hidden">Game 14</div>
+  <div class="grid-item hidden">Game 15</div>
+  <div class="grid-item hidden">Game 16</div>
+  <div class="grid-item hidden">Game 17</div>
+  <div class="grid-item hidden">Game 18</div>
+  <div class="grid-item hidden">Game 19</div>
+  <div class="grid-item hidden">Game 20</div>
+  <div class="grid-item hidden">Game 21</div>
+  <div class="grid-item hidden">Game 22</div>
+  <div class="grid-item hidden">Game 23</div>
+  <div class="grid-item hidden">Game 24</div>
+  <div class="grid-item hidden">Game 25</div>
+  <div class="grid-item hidden">Game 26</div>
+  <div class="grid-item hidden">Game 27</div>
+</div>
+
+<!-- Grid Login -->
+<div id="login-grid" class="topup-grid" style="display:none;">
+  <div class="grid-item">Vilog 1</div>
+  <div class="grid-item">Vilog 2</div>
+  <div class="grid-item">Vilog 3</div>
+  <div class="grid-item">Vilog 4</div>
+  <div class="grid-item">Vilog 5</div>
+  <div class="grid-item">Vilog 6</div>
+  <div class="grid-item">Vilog 7</div>
+  <div class="grid-item">Vilog 8</div>
+  <div class="grid-item">Vilog 9</div>
+</div>
+
+<div id="joki-grid" class="topup-grid" style="display:none;">
+  <div class="grid-item">Joki 1</div>
+  <div class="grid-item">Joki 2</div>
+  <div class="grid-item">Joki 3</div>
+  <div class="grid-item">Joki 4</div>
+  <div class="grid-item">Joki 5</div>
+</div>
+
+<div id="joki-gendong-grid" class="topup-grid" style="display:none;">
+  <div class="grid-item">Joki 1</div>
+  <div class="grid-item">Joki 2</div>
+  <div class="grid-item">Joki 3</div>
+  <div class="grid-item">Joki 4</div>
+</div>
+
+<div id="voucher-grid" class="topup-grid" style="display:none;">
+  <div class="grid-item">Voucher 1</div>
+  <div class="grid-item">Voucher 2</div>
+  <div class="grid-item">Voucher 3</div>
+  <div class="grid-item">Voucher 4</div>
+</div>
+
+<div id="ewallet-grid" class="topup-grid" style="display:none;">
+  <div class="grid-item">Dana</div>
+  <div class="grid-item">Gopay</div>
+  <div class="grid-item">Shopeepay</div>
+  <div class="grid-item">Ovo</div>
+  <div class="grid-item">Link aja</div>
+</div>
+
+<div style="text-align:center; margin-top:20px;">
+  <button id="loadMore" class="btn-loadmore">Load More</button>
+</div>
+  
+<script src="script.js"></script>
+</body>
+</html>
