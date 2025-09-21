@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // =================  ALERT   =================
+  window.onload = function() {
+    alert("⚠️ Sedang dalam pengembangan. Beberapa fitur mungkin belum berfungsi dan belum sempurna.");
+  }
   // ================= CAROUSEL =================
   const track = document.querySelector('.carousel-track');
   let slides = Array.from(track.children);
