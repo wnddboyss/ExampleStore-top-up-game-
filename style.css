@@ -6,7 +6,6 @@ body {
   animation: gradientShift 3s ease infinite;
 }
 
-/* Background animation */
 @keyframes gradientShift {
   0%   { background-position: 0% 50%; }
   50%  { background-position: 100% 50%; }
@@ -197,7 +196,6 @@ transform: scale(1.1);
   object-position: center;
 }
 
-/* Section Title */
 .terlaris {
   position: relative;
   color: white;
@@ -209,7 +207,7 @@ transform: scale(1.1);
   justify-content: center;
 }
 .title-row h1 {
-  font-size: clamp(30px, 3vw, 50px);
+  font-size: clamp(25px, 3vw, 45px);
   margin: 0;
   line-height: 1.5;
 }
