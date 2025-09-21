@@ -226,7 +226,7 @@ transform: scale(1.1);
 #topupskrg {
   color: white;
   margin: 0;
-  font-size: clamp(15px, 3vw, 30px);
+  font-size: clamp(10px, 3vw, 25px);
 }
 
 /* Gamebox */
